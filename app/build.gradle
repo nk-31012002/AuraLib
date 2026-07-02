@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.ulib'
+    namespace 'io.auralib.app'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.ulib"
+        applicationId "io.auralib.app"
         minSdk 26
         targetSdk 33
         versionCode 1
