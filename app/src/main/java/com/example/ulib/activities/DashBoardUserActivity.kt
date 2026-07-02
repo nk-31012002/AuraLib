@@ -64,9 +64,9 @@ class DashBoardUserActivity : AppCompatActivity() {
                     categoryArrayList.clear()
 //                    load some static categories ex: all,most viewed , most downloaded
 //                    add data to models
-                    val modelAll= ModelCategory("01","All",1,"")
-                    val modelMostViewed= ModelCategory("01","Most Viewed",1,"")
-                    val modelMostDownload= ModelCategory("01","Most Downloaded",1,"")
+                    val modelAll = ModelCategory("cat_all", "All Books", 0, "system")[cite: 3]
+                    val modelMostViewed = ModelCategory("cat_viewed", "Trending", 0, "system")[cite: 3]
+                    val modelMostDownload = ModelCategory("cat_downloaded", "Highly Requested", 0, "system")[cite: 3]
 
 //                    add to list
                     categoryArrayList.add(modelAll)
